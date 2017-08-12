@@ -1,0 +1,63 @@
+body {
+	background-image: url("../images/Star-wars-background.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	color: yellow;
+	text-align: right;
+	font-family: Star Jedi Rounded;
+}
+
+#bastila {
+	background-image: url("../images/Bastillabae.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	border: 1px solid;
+	width: 100px;
+	height: 120px;
+	background-size: cover;
+	color: yellow;
+
+
+}
+
+#darthvader {
+	background-image: url("../images/darth vader.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	border: 1px solid;
+	background-size: cover;
+	width: 100px;
+	height: 120px;
+	color: yellow;
+
+}
+
+#starkiller {
+	background-image: url("../images/Starkiller.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	border: 1px solid;
+	background-size: cover;
+	width: 100px;
+	height: 120px;
+	color: yellow;
+}
+
+#bobbafett {
+	background-image: url("../images/Bobba Fett.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	border: 1px solid;
+	background-size: cover;
+	width: 100px;
+	height: 120px;
+	color: yellow;
+}
+
+h2 {
+	color: yellow;
+	font-family: Star Jedi Rounded;
+}
