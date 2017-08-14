@@ -31,52 +31,52 @@ var bobbaFett = {
 	counterAttackPower: 15,
 };
 
+var charSelected = false;
+var battleReady = false;
+var gameOver = false;
+var enemeySelected = false;
+
 
 $(function() {
 
-	var $bastila = $('#bastila');
-	var $darthvader = $('#darthvader');
-	var $starkiller = $('#starkiller');
-	var $bobbafett = $('#bobbafett');
-
-
-
 	$('#bastila').click(function() {
-		
+		charSelected = true;
 		$('#bastila').siblings().appendTo('.enemies');
 		$('#bastila').appendTo('#character');
 		$('#bastila').click(function() {
-			$('#bastila').appendTo('#defender');
+			if (charSelected===true) {
+				return;
+			}
 			
 
 		});
 		
 	});
 	$('#darthvader').click(function() {
-		
+		charSelected = true;
 		$('#darthvader').siblings().appendTo('.enemies');
 		$(this).appendTo('#character');
-		if ($darthvader === '.enemies') {
+		if (charSelected===true) {
 			$('#darthvader').appendTo('#defender');
 		}
 
 	});
 
 	$('#starkiller').click(function() {
-		
+		charSelected = true;
 		$('#starkiller').siblings().appendTo('.enemies');
 		$(this).appendTo('#character');
-		if ($starkiller === '.enemies') {
+		if (charSelected === true) {
 			$('#starkiller').appendTo('#defender');
 		}
 		
 	});
 
 	$('#bobbafett').click(function() {
-		
+		charSelected = true;
 		$('#bobbafett').siblings().appendTo('.enemies');
 		$(this).appendTo('#character');
-		if ($bobbafett === '.enemies') {
+		if (charSelected === true) {
 			$('#bobbafett').appendTo('#defender');
 		}
 	});
